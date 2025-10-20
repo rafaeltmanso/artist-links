@@ -24,11 +24,10 @@ A modern, responsive link tree page with dark/light theme toggle.
 ## 📷 Screenshots
 
 <div align="center">
-  <h3>Dark Mode</h3>
-  <img src="./assets/screenshot-dark.png" alt="Dark Mode" width="600"/>
-  
-  <h3>Light Mode</h3>
-  <img src="./assets/screenshot-light.png" alt="Light Mode" width="600"/>
+  <img src="./assets/screenshot-dark.png" alt="Dark Mode" width="400"/>
+  <img src="./assets/screenshot-light.png" alt="Light Mode" width="400"/>
+  <br/>
+  <sub><b>Dark Mode</b> (left) and <b>Light Mode</b> (right)</sub>
 </div>
 
 ## 📝 Credits
