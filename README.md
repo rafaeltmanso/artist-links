@@ -19,18 +19,17 @@ A modern, responsive link tree page with dark/light theme toggle.
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://YOUR-USERNAME.github.io/devlinks/)
+[View Live Demo]((https://rafaeltmanso.github.io/artist-links/))
 
 ## 📷 Screenshots
 
 ### Dark Mode
 
-![Dark Mode](./assets/preview-dark.png)
+![Dark Mode](./assets/screenshot-dark.png)
 
 ### Light Mode
 
-![Light Mode](./assets/preview-light.png)
+![Light Mode](./assets/screenshot-light.png)
 
-## 📝 License
 
 This project was created as part of Rocketseat's Explorer program.
