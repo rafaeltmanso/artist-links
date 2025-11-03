@@ -43,7 +43,6 @@ body * {
     animation: slideUp 0.6s ease-out;
 }
 
-/* profile */
 #profile {
     text-align: center;
     padding: 24px;
@@ -55,10 +54,10 @@ body * {
     margin: auto;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center 0%;
+    object-position: center 0;
     border: 2px solid var(--stroke-color);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s, box-shadow 0.3s;
     cursor: pointer;
 }
 
@@ -77,7 +76,6 @@ body * {
     margin-top: 8px;
 }
 
-/* switch */
 #switch {
     position: relative;
     width: 64px;
@@ -98,15 +96,12 @@ body * {
     border: 0;
     border-radius: 50%;
     cursor: pointer;
-
     position: absolute;
     top: 50%;
     left: 0;
     z-index: 1;
     transform: translateY(-50%);
-
     animation: slide-back 0.2s;
-    transition: box-shadow 0.2s ease;
 }
 
 .light #switch button {
@@ -125,18 +120,14 @@ body * {
     background: var(--surface-color);
     border: 1px solid var(--stroke-color);
     backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
     border-radius: 9999px;
 }
 
-/* links */
 ul {
     list-style: none;
-
     display: flex;
     flex-direction: column;
     gap: 16px;
-
     padding: 24px 0;
 }
 
@@ -144,19 +135,13 @@ ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-
     padding: 16px 24px;
-
     background: var(--surface-color);
     border: 1px solid var(--stroke-color);
     border-radius: 8px;
-
     backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-
     text-decoration: none;
     font-weight: 500;
-
     transition: background 0.2s, border 0.2s, transform 0.2s;
 }
 
@@ -175,14 +160,11 @@ ul li a:active {
     transform: translateY(0);
 }
 
-/* social links */
 #social-links {
     display: flex;
     justify-content: center;
     gap: 16px;
-
     padding: 24px 0;
-
     font-size: 24px;
 }
 
@@ -217,7 +199,6 @@ footer a {
     font-weight: 500;
 }
 
-/* media queries */
 @media (min-width: 700px) {
     :root {
         --bg-url: url(./assets/bg-desktop.jpg);
@@ -228,7 +209,6 @@ footer a {
     }
 }
 
-/* animations */
 @keyframes slide-in {
     from {
         left: 0;

@@ -21,15 +21,6 @@ A modern, responsive link tree page with dark/light theme toggle.
 
 [View Live Demo](<(https://rafaeltmanso.github.io/artist-links/)>)
 
-## 📷 Screenshots
-
-<div align="center">
-  <img src="./assets/screenshot-dark.png" alt="Dark Mode" width="400" style="vertical-align: top;"/>
-  <img src="./assets/screenshot-light.png" alt="Light Mode" width="400" style="vertical-align: top;"/>
-  <br/>
-  <sub><b>Dark Mode</b> (left) and <b>Light Mode</b> (right)</sub>
-</div>
-
 ## 📝 Credits
 
-This project was created as part of Rocketseat's Explorer program.
+This project was created by Rafael Manso as part of Rocketseat's Explorer program.
